@@ -5,7 +5,7 @@
 
 require './miocrawler.rb'
 require 'pry'
-mio = MioParser.new('youraddress@gmail.com', 'yourpassword')
+mio = MioParser.new('yourmail@address.com', 'password-here')
 mio.scan_data
-mio.get_user_data
-binding.pry
+#binding.pry
+puts mio.get_user_data
